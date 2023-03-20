@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+header {
+  height: 150px;
+  width: 100%;
+}
+header .nav1 {
+  height: 50px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 200px;
+}
+header .nav1 .left {
+  display: flex;
+}
+header .nav1 .left .info {
+  margin: 0 5px;
+}
+header .img {
+  height: 40px;
+  width: 50px;
+}
+header .nav2 {
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+  box-shadow: 3px 3px 3px lightgray;
+}
+header .nav2 .img {
+  height: 60px;
+  width: 60px;
+}
+header .nav2 ul {
+  list-style: none;
+  display: flex;
+}
+header .nav2 ul li {
+  margin-left: 40px;
+  font-size: 15;
+}
+header .nav2 .button {
+  padding: 10px;
+  border: 0;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+}
+
+main {
+  padding: 80px 200px;
+  width: 100vw;
+  height: 90vh;
+  background-image: url(https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .hero {
+  background-color: none;
+  width: 400px;
+  font-size: 20px;
+}
+main .hero hi {
+  width: 40%;
+  margin-bottom: 30px;
+}
+main .hero .bbb {
+  margin-top: 30px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

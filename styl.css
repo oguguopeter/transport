@@ -1,0 +1,12 @@
+header {
+  height: 150px;
+  width: 100px;
+  padding: 0 200px;
+}
+header .nav1 {
+  height: 50px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=styl.css.map */
